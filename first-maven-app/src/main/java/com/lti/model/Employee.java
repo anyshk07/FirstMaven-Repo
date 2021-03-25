@@ -30,4 +30,7 @@ jenkins installation
  * 
 after installation
  * localhost:9191
+ * 
+mvn -f ./first-maven-app/pom.xml package clean
+mvn exec:java -Dexec.mainClass=com.lti.view.EmpView
  */

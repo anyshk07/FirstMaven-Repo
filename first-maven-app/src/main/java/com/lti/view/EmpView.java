@@ -10,6 +10,12 @@ public class EmpView {
 		emp.setEmpName("John");
 		
 		System.out.println("Id: "+emp.getEmpId()+"\nName: "+emp.getEmpName());
+		
+		emp.setEmpId(1002);
+		emp.setEmpName("Mark");
+		
+		System.out.println("Id: "+emp.getEmpId()+"\nName: "+emp.getEmpName());
+		
 	}
 
 }
