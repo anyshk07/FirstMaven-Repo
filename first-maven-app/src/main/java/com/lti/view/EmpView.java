@@ -11,10 +11,11 @@ public class EmpView {
 		
 		System.out.println("Id: "+emp.getEmpId()+"\nName: "+emp.getEmpName());
 		
-		emp.setEmpId(1002);
-		emp.setEmpName("Mark");
+		Employee emp1=new Employee();
+		emp1.setEmpId(1002);
+		emp1.setEmpName("Mark");
 		
-		System.out.println("Id: "+emp.getEmpId()+"\nName: "+emp.getEmpName());
+		System.out.println("Id: "+emp1.getEmpId()+"\nName: "+emp1.getEmpName());
 		
 	}
 
